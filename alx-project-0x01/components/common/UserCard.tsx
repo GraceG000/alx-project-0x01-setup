@@ -4,6 +4,8 @@ import Header from "../layout/Header";
 
 
 const UserCard: React.FC<UserProps> = ({ users }) => {
+
+
   return (
     <div className="flex flex-col h-screen">
       <Header />
