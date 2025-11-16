@@ -60,5 +60,5 @@ export interface UserModalProps {
   isOpen: boolean;
   onClose: () => void;
   onSave: (data: UserData) => void;
-  onSubmit:(post: UserProps) => void;
+  onSubmit: (post: UserProps) => void;
 }
